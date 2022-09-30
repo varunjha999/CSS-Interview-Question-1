@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div {
+        color: blue;
+    }
+    </style>
+</head>
+<body>
+    <h1>CSS INTERVIEW QUESTIONS 1</h1>
+    <b><strong>Ques 1.</strong>Difference between flex-direction as row and column.</b>
+    <p><strong>Ans.</strong><br>
+        <div class="test">
+      *  This is a CSS property based on the concept of the flexbox. Flex-direction property <br>
+        can be applied to the parent elements and then the child elements of this parent tag <br>
+        will be placed accordingly.
+     <br><br>
+      * The difference is when we apply flex-direction : row, child elements will be placed one <br>
+      after another in the same row (horizontally) and then the row or x-axis will be considered as <br>
+      the main axis, in this case the y-axis will be known as cross axis. 
+    </p><br><br>
+</div>
+    <b>Ques 2. Explain the Inline, Internal, and External Stylesheet.</b>
+    <p><strong>Ans.</strong><br>
+        <div class="test">
+         * Inline styling gets applied directly to the element in the style attribute.<br>
+         This styling is having the highest priority among all. But it is not advised to use this styling<br>
+         much in projects.<br><br>
+         * Internal styling gets written in the head tag of the HTML file. It will be written in the style tag.<br>
+           The styling written in style tag will be applicable only in that HTML file.
+        <br><br>
+        * External Styling is done by creating a different CSS file with . css extension.This file can be linked to <br>
+          any HTML file wherever the styling is required. The external CSS file can be attached to the HTML file in the <br>
+          head tag in the link tag. This styling is having the least priority but it is the most advised way of writing <br>
+          styling in projects.
+        </p><br>
+    </div>
+
+    <b>Ques 3.What does justify-content allow you to do?</b>
+    <p><strong>Ans.</strong><br>   
+        <div class="test">
+        The justify-content property is a sub-property of the Flex-box Module.<br>
+        The justify-content property specifies how flex-items are distributed along the main axis of their <br>
+        parent flex-container. If the flex-direction of the parent container is row(default value) then the <br>
+         main axis will be the x-axis. If the flex-direction is a column then the main axis will be the y-axis.<br>
+       </p><br>
+    </div>
+
+
+    <b>Ques 4.Difference between Absolute and Relative Positioning?</b>
+    <p><strong>Ans.</strong><br>
+        <div class="test">
+        Position: Relative<br>
+       * It is used when we need to position the HTML element relative to its normal position.<br>
+       * We can set top, right, bottom and left properties that will cause the element to adjust away <br>
+         from the normal position.<br> <br>
+        </strong><br>Position: Absolute<br> 
+        *An element with position absolute will move according to the position of its parent element.<br>
+        *In the absence of the parent element, the HTML element will be placed according to the body tag. <br>
+        In this case if you want to place the element at any position based on the parent element then we <br>
+        need to give the position : relative to parent element and then position : absolute to child element. <br>
+   </p><br>
+</div>
+
+    <b>Ques 5.What are grid-template-columns used for?</b>
+    <p><strong>Ans.</strong><br>
+        <div class="test">
+        Grid-template-columns property defines how many columns should be there in<br>
+         a grid-container. The number of columns is determined by the number of values defined in the space-separated <br>
+         list. It takes values in px, % and fraction (fr).<br>
+  </p><br>
+</div>
+
+<b>Ques 6. What is z-index in CSS?</b>
+<P><strong>Ans.</strong><br>
+    <div class="test">
+    The z-index property determines the stack level of an HTML element. The “stack level” refers<br>
+     to the element’s position on the Z axis (as opposed to the X axis or Y axis). Elements with a higher index will be <br>
+     placed on top of elements with a lower index. If the z-index value of any element is positive then that element <br>
+     will be at the top and element having negative value of z-index will be at the bottom.<br>
+    Note :-  z-index will only work on an element whose position property has been set to absolute, relative and fixed.<br>
+  </P><br>
+</div>
+
+
+<b>Ques 7.What is the difference between Padding and Margin.</b>
+<p><Strong>Ans.</Strong><br> <h3>Padding</h3>
+    <div class="test">
+    *Padding provides the space between the border and the content of an element. It is the space inside the border<br>
+    *Padding values can only be positive.<br>
+    *When you set padding values, the size of that element increases.<br>
+    <br> </div>
+    <h3>Margin</h3>
+    <div class="test">
+    *  Margin provides the space between the border and nearby elements. It is the space outside the border.<br>
+    *  You can set margin values to be negative if you want elements to overlap.<br>
+    *  When you set margin values, the element's size does not change, only the space around it.
+  </p><br>
+</div>
+
+</body>
+</html>
